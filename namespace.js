@@ -22,11 +22,11 @@ var MAFE0002 = {
          div.addEventListener("mouseout", divMouseOut);
    
          function divMouseOver(event){
-             event.currentTarget.className.toggle("highlight");
+             event.currentTarget.classList.toggle("highlight");
          }
         
          function divMouseOut(event){
-             event.currentTarget.className.toggle("highlight");
+             event.currentTarget.classList.toggle("highlight");
          }
       
         
