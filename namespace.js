@@ -12,7 +12,7 @@ var MAFE0002 = {
     init: function () {
          var div = document.createElement("div");
          div.className ="box";
-         div.textContent = "mafe0002";
+         div.textContent = "MAFE0002";
         
         
          document.getElementById("boxes").appendChild(div);
